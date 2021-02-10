@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to right,rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../img/bg.jpeg) no-repeat center ;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+header ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0,0,0,.9);
+    border-bottom: 1px solid #dfcfc62a;
+}
+header ul li{
+    display: flex;
+    margin: 0 20px 0 20px;
+    list-style-type: none;
+}
+header ul li:hover{
+    background-color: white;
+    transition: background 800ms;
+    border-radius: 3%;
+}
+
+header li a{
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header li a:hover{
+    color: #ff914d;
+    font-size:21px;
+    transition: color 500ms;
+    transition: font-size 500ms;
+}
+header img{
+    position: fixed;
+    top: 8px;
+    left: 20px;
+    width: 5%;
+    border-radius: 50%;
+}
+section{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container ol ,
+.container ul{
+    list-style: none;
+    margin: 10px 0 15px 0;
+}
+
+h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Racing Sans One', cursive;
+    text-shadow: 1px 1px 5px black;
+}
+p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+h3{
+    font-size: 25px ;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Racing Sans One', cursive; 
+    text-shadow: 1px 1px 5px black;
+    margin: 5px;
+}
+#video{
+    margin: 30px auto 10px auto; 
+}
+section img{
+    margin: 30px auto 10px auto;
+    border-radius: 50%;
+    width: 200px;
+}
+.face{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+#map{
+    margin: 30px auto 10px auto; 
+    width: 90%;
+    height: 300px; 
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="submit"]{
+    margin-bottom: 20px;
+    width: 90%;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 10px;
+    text-align: center;
+}
+#submit{
+    background-color: rgb(255, 30, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    height: 40px;
+}
+#submit:hover {
+    background: rgb(255, 30, 0);
+    box-shadow: 0 3px 0 rgb(163, 19, 0);
+    border: none;
+  }
+#submit:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+    border: none;
+  }
+#submit:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+textarea{
+    width: 90%;
+    border-radius: 10px;
+    height: 200px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+footer{
+    margin: 50px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}

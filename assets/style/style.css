@@ -165,6 +165,9 @@ textarea{
     padding-left: 10px;
     margin-bottom: 20px;
 }
+audio{
+    margin: 20px;
+}
 footer{
     margin: 50px;
     font-size: 15px;

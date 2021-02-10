@@ -34,7 +34,8 @@
           <textarea id="descricao"></textarea>
           <input id="submit" type="submit" value="Enviar" />
         </form>
-        <iframe id="map"
+        <iframe
+          id="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.127943771963!2d-46.641387685021506!3d-23.59974398466386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a3054d82c71%3A0x5906018b8230276e!2sBar%20da%20Santa!5e0!3m2!1spt-BR!2sbr!4v1612895476637!5m2!1spt-BR!2sbr"
           frameborder="0"
           style="border: 0"
@@ -46,6 +47,16 @@
     </section>
     <footer>
       <h4>&copy; Todos os direitos reservados , Danilo Mendes</h4>
+      <audio
+        id="myaudio"
+        src="assets/audio/hold.mp3"
+        autoplay
+        controls
+      ></audio>
     </footer>
   </body>
+  <script>
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.1;
+  </script>
 </html>

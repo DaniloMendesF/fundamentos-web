@@ -1,83 +1,97 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>UNES - Página principal</title>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>UNIFEST - Quem somos</title>
   </head>
-  <body background="imagens/fundo2.png">
-    <table border="0" width="900" align="center">
-      <tr>
-        <td height="89"><img src="assets/img/logo.png" height="250" /></td>
-        <td align="right">
-          <a href="index.html">Home</a> | <a href="">Quem somos</a> |
-          <a href="contato.html">Contato</a>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" height="89">
-          <h2>Quem somos</h2>
-          <p>
-            Lorem <strong>ipsum</strong>, or <em>lipsum</em> as it is sometimes
-            known, is dummy text used in laying out print, graphic or web
-            designs. The passage is attributed to an unknown typesetter in the
-            15th century who is thought to have scrambled parts of Cicero's De
-            Finibus Bonorum et Malorum for use in a type specimen book.
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <h2>5 motivos para estudar</h2>
-          <ol>
-            <li>Ambiente coolaborativo</li>
-            <li>Diálogos filosóficos</li>
-            <li>Garçons atenciosos</li>
-            <li>Ótimo custo benefício dos petiscos</li>
-            <li>Ótima localização - perto do metrô</li>
-          </ol>
-          <hr />
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <h2>Nossos Cursos</h2>
-          <ul>
-            <li>Ciência Barista</li>
-            <li>Levantador de Copo</li>
-            <li>Mestre Cervejeiro</li>
-            <li>Atletismo (Beer Pong)</li>
-            <li>Fundamentos do Happy Hour</li>
-          </ul>
-          <hr>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <h2>Ex - alunos notáveis</h2>
-          <ul>
-            <li><strong>Marília Mendonça</strong></li>
-            <li><strong>Lindsay Lohan</strong></li>
-            <li><strong>Homer Simpson</strong></li>
-            <li><strong>Rick Sanchez</strong></li>
-          </ul>
-          <hr />
-        </td>
-      </tr>
-      <tr>
-        <td align="center" colspan="2">
-          <h2>Nosso Reitor</h2>
-          <img
-            width="200"
-            src="assets/img/reitor.jpg"
-            alt="Reitor - Zeca pagodinho da akatsuki"
-          />
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <h4 align="center">Todos os direitos reservados</h4>
-        </td>
-      </tr>
-    </table>
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Quem somos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <img src="assets/img/logo.png" />
+    </header>
+    <section>
+      <div class="container">
+        <h2>Quem somos</h2>
+        <p>
+          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+          laying out print, graphic or web designs. The passage is attributed to
+          an unknown typesetter in the 15th century who is thought to have
+          scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
+          type specimen book.
+        </p>
+        <h2>5 motivos para estudar</h2>
+        <ol>
+          <li>Ambiente coolaborativo</li>
+          <li>Diálogos filosóficos</li>
+          <li>Garçons atenciosos</li>
+          <li>Ótimo custo benefício dos petiscos</li>
+          <li>Ótima localização - perto do metrô</li>
+        </ol>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2>Nossos Cursos</h2>
+        <ul>
+          <li>Ciência Barista</li>
+          <li>Levantador de Copo</li>
+          <li>Mestre Cervejeiro</li>
+          <li>Atletismo (Beer Pong)</li>
+          <li>Fundamentos do Happy Hour</li>
+        </ul>
+        <h2>Ex - alunos notáveis</h2>
+        <ul>
+          <li><strong>Marília Mendonça</strong></li>
+          <li><strong>Lindsay Lohan</strong></li>
+          <li><strong>Homer Simpson</strong></li>
+          <li><strong>Rick Sanchez</strong></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2>Nosso Reitor</h2>
+        <img
+          src="assets/img/reitor.jpg"
+          alt="Reitor - Zeca pagodinho da akatsuki"
+        />
+      </div>
+    </section>
+    <footer>
+      <div class="container-footer">
+        <h4>Todos os direitos reservados: &copy; Danilo Mendes</h4>
+        <div class="redesocial">
+          <a href="https://www.instagram.com/danilomendesf/?hl=pt-br" target="_blank"
+            ><img src="assets/img/instagram.svg" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/danilomf/" target="_blank"
+            ><img src="assets/img/linkedin.svg" alt=""
+          /></a>
+          <a href="https://github.com/DaniloMendesF" target="_blank"
+            ><img src="assets/img/github.svg" alt=""
+          /></a>
+        </div>
+        <audio
+          id="myaudio"
+          src="assets/audio/hold.mp3"
+          autoplay
+          controls
+        ></audio>
+      </div>
+    </footer>
   </body>
+  <script src="assets/js/script.js">
+  </script>
 </html>

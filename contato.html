@@ -26,13 +26,16 @@
         <h2>Entre em contato</h2>
         <p class="face">Facebook page not found.</p>
         <form>
+          <label for="nome">Seu nome:</label>
+          <input id="nome" type="text" name="nome" placeholder="Nome completo" onkeyup="validaNome()" />
+          <div class="txt"></div>
           <label for="email">Seu e-mail:</label>
-          <input id="email" type="text" name="email" />
+          <input id="email" type="text" name="email" placeholder="exemplo@emailteste.com" onkeyup="validaEmail()"/>
           <label for="assunto">Assunto:</label>
-          <input id="assunto" type="text" name="assunto" />
+          <input id="assunto" type="text" name="assunto" placeholder="Ex: Feedback" onkeyup="validaAssunto()" />
           <label for="descricao">Descrição:</label>
-          <textarea id="descricao"></textarea>
-          <input id="submit" type="submit" value="Enviar" />
+          <textarea id="descricao" placeholder="Digite o seu texto aqui ..." onkeyup="validaDescricao()"></textarea>
+          <input id="submit" type="submit" value="Enviar" onclick="enviar()"/>
         </form>
         <iframe
           id="map"
@@ -46,17 +49,27 @@
       </div>
     </section>
     <footer>
-      <h4>&copy; Todos os direitos reservados , Danilo Mendes</h4>
-      <audio
-        id="myaudio"
-        src="assets/audio/hold.mp3"
-        autoplay
-        controls
-      ></audio>
+      <div class="container-footer">
+        <h4>Todos os direitos reservados: &copy; Danilo Mendes</h4>
+        <div class="redesocial">
+          <a href="https://www.instagram.com/danilomendesf/?hl=pt-br" target="_blank"
+            ><img src="assets/img/instagram.svg" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/danilomf/" target="_blank"
+            ><img src="assets/img/linkedin.svg" alt=""
+          /></a>
+          <a href="https://github.com/DaniloMendesF" target="_blank"
+            ><img src="assets/img/github.svg" alt=""
+          /></a>
+        </div>
+        <audio
+          id="myaudio"
+          src="assets/audio/hold.mp3"
+          autoplay
+          controls
+        ></audio>
+      </div>
     </footer>
   </body>
-  <script>
-    var audio = document.getElementById("myaudio");
-    audio.volume = 0.1;
-  </script>
+  <script src="assets/js/script.js"></script>
 </html>

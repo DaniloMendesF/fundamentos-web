@@ -1,0 +1,76 @@
+.carousel-item img{
+    height: 90vh;
+} 
+.navbar{
+    background: url(../img/bg.jpg) no-repeat right;
+    background-size: contain;
+}
+.bg-dark{
+    background: url(../img/bg3.png) no-repeat top right;
+    background-size: contain;
+}
+h3{
+    padding-top: 50px;
+}
+.jumbotron{
+    background: #e9ecef url(../img/animation.gif) no-repeat top left;
+}
+.jumbotron-fluid {
+    padding-top: 50px;
+}
+#video{
+    overflow: hidden;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    border-radius: 2px;
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.card:hover img{
+    transform: scale(1.3);
+}
+.texto{
+    padding:20px;
+    font-family:Arial;
+    text-align:center;
+    color:white;
+    opacity:0;
+    transition: opacity .2s linear;
+    background-color:rgba(0,0,0,.8)
+}
+.texto:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#comportamento{
+    background: #e9ecef;
+    border-radius: 10px;
+}
+video{
+    width: 100%;
+}
+input{
+    text-align: center;
+}
+.row{
+    margin: 0px;
+}
+footer{
+    color: white;
+    font-weight: bold;
+    background-color:black;
+}
+.tm-social {
+    width: 50px;
+    height: 50px;
+  }
+  .tm-social{
+  transition: transform 0.3s ease-out;
+  }
+  .tm-social:hover{
+    display: inline-block;
+    transform: scale(1.1);
+  }

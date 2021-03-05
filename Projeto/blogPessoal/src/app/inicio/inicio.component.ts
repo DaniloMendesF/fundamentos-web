@@ -50,10 +50,10 @@ export class InicioComponent implements OnInit {
     this.tema = resp
     })
   }
-
+  
   getAllPostagens(){
     this.postagemService.getAllPostagens().subscribe((resp: Postagem[]) =>{
-      this.listaPostagens = resp
+      this.listaPostagens = resp.sort()
     })
   }
 
